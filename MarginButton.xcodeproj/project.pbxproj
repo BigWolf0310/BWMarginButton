@@ -13,6 +13,7 @@
 		671F9CB623A227DA00546ECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 671F9CB523A227DA00546ECA /* Assets.xcassets */; };
 		671F9CB923A227DA00546ECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 671F9CB723A227DA00546ECA /* LaunchScreen.storyboard */; };
 		671F9CBC23A227DA00546ECA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F9CBB23A227DA00546ECA /* main.m */; };
+		671F9CC523A2280F00546ECA /* BWMarginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 671F9CC423A2280F00546ECA /* BWMarginButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		671F9CB823A227DA00546ECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		671F9CBA23A227DA00546ECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		671F9CBB23A227DA00546ECA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		671F9CC323A2280F00546ECA /* BWMarginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BWMarginButton.h; sourceTree = "<group>"; };
+		671F9CC423A2280F00546ECA /* BWMarginButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BWMarginButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		671F9CAB23A227D900546ECA /* MarginButton */ = {
 			isa = PBXGroup;
 			children = (
+				671F9CC223A227E400546ECA /* MarginButton */,
 				671F9CAC23A227D900546ECA /* AppDelegate.h */,
 				671F9CAD23A227D900546ECA /* AppDelegate.m */,
 				671F9CAF23A227D900546ECA /* ViewController.h */,
@@ -67,6 +71,15 @@
 				671F9CB723A227DA00546ECA /* LaunchScreen.storyboard */,
 				671F9CBA23A227DA00546ECA /* Info.plist */,
 				671F9CBB23A227DA00546ECA /* main.m */,
+			);
+			path = MarginButton;
+			sourceTree = "<group>";
+		};
+		671F9CC223A227E400546ECA /* MarginButton */ = {
+			isa = PBXGroup;
+			children = (
+				671F9CC323A2280F00546ECA /* BWMarginButton.h */,
+				671F9CC423A2280F00546ECA /* BWMarginButton.m */,
 			);
 			path = MarginButton;
 			sourceTree = "<group>";
@@ -97,6 +110,7 @@
 		671F9CA123A227D900546ECA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = BW;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = syt;
 				TargetAttributes = {
@@ -143,6 +157,7 @@
 			files = (
 				671F9CB123A227D900546ECA /* ViewController.m in Sources */,
 				671F9CBC23A227DA00546ECA /* main.m in Sources */,
+				671F9CC523A2280F00546ECA /* BWMarginButton.m in Sources */,
 				671F9CAE23A227D900546ECA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
